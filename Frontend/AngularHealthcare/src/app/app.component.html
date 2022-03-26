@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="students" routerLinkActive="active">Patient List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="create-student" routerLinkActive="active">Register Patient</a>
+    </li>
+  </ul>
+</nav>
+
+<h2 class="text-center">{{title}}</h2>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div class="container">
+    <span>Md Tanjilur Rahman</span>
+  </div>
+</footer>
